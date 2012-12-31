@@ -9,6 +9,20 @@ It is a iOS style version of the wonderful async-http-client code written for Ja
 
 Below is a really simple sample of using the code.  I will upload a sample application shortly that shows a few more use cases.
 
+Example Setup
+=====================
+
+For the example, I am using mongo labs as it is free and gives you a built in api, for testing both the gets and the posts.
+
+To run the example, you should
+
+1. signup for a free account on MongoLab
+2. download this repo 
+3. go into the Config.h file and set your mongo database and mongo api key.
+4. run the app, and press the Add Item and you can see it adds it to your mongo db, press the Get Items button, and the console will show the api payload.
+
+You can also just change the code to point to any api of your choosing.  I will expand on this soon.
+
 Sample Usage (Pseudo code mostly)
 =====================
 
