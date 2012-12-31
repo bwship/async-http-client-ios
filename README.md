@@ -9,12 +9,12 @@ It is a iOS style version of the wonderful async-http-client code written for Ja
 
 Below is a really simple sample of using the code.  I will upload a sample application shortly that shows a few more use cases.
 
-Sample Usage
+Sample Usage (Pseudo code mostly)
 =====================
 
 SampleViewController.m
 
-#import "WebServiceResponse.h"
+import "WebServiceResponse.h"
 
 - (void)viewDidLoad {
   [ItemModel getItems:^(WebServiceResponse* response){
@@ -26,8 +26,8 @@ SampleViewController.m
 
 ItemModel.m
 
-#import "WebServiceResponse.h"
-#import "WebServiceRequest.h"
+import "WebServiceResponse.h"
+import "WebServiceRequest.h"
 
 /* restful api call to get items for the specified category */
 + (WebServiceResponse*)getItems:(WebServiceCallbackBlock)finished {
