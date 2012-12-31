@@ -1,0 +1,380 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9620E1441692057A0028BA01 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9620E1431692057A0028BA01 /* UIKit.framework */; };
+		9620E1461692057A0028BA01 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9620E1451692057A0028BA01 /* Foundation.framework */; };
+		9620E1481692057A0028BA01 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9620E1471692057A0028BA01 /* CoreGraphics.framework */; };
+		9620E14E1692057A0028BA01 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9620E14C1692057A0028BA01 /* InfoPlist.strings */; };
+		9620E1501692057A0028BA01 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9620E14F1692057A0028BA01 /* main.m */; };
+		9620E1541692057A0028BA01 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9620E1531692057A0028BA01 /* AppDelegate.m */; };
+		9620E1561692057A0028BA01 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 9620E1551692057A0028BA01 /* Default.png */; };
+		9620E1581692057A0028BA01 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9620E1571692057A0028BA01 /* Default@2x.png */; };
+		9620E15A1692057A0028BA01 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9620E1591692057A0028BA01 /* Default-568h@2x.png */; };
+		9620E15D1692057A0028BA01 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9620E15C1692057A0028BA01 /* ViewController.m */; };
+		9620E1601692057A0028BA01 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9620E15E1692057A0028BA01 /* ViewController.xib */; };
+		9620E172169205C50028BA01 /* WebServiceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9620E16D169205C50028BA01 /* WebServiceController.m */; };
+		9620E173169205C50028BA01 /* WebServiceRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9620E16F169205C50028BA01 /* WebServiceRequest.m */; };
+		9620E174169205C50028BA01 /* WebServiceResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 9620E171169205C50028BA01 /* WebServiceResponse.m */; };
+		9620E17E1692075D0028BA01 /* ItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9620E17D1692075D0028BA01 /* ItemModel.m */; };
+		9620E182169208100028BA01 /* NSDictionaryAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9620E181169208100028BA01 /* NSDictionaryAdditions.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9620E13F1692057A0028BA01 /* async-http-client-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "async-http-client-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9620E1431692057A0028BA01 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9620E1451692057A0028BA01 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9620E1471692057A0028BA01 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9620E14B1692057A0028BA01 /* async-http-client-test-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "async-http-client-test-Info.plist"; sourceTree = "<group>"; };
+		9620E14D1692057A0028BA01 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9620E14F1692057A0028BA01 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9620E1511692057A0028BA01 /* async-http-client-test-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "async-http-client-test-Prefix.pch"; sourceTree = "<group>"; };
+		9620E1521692057A0028BA01 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9620E1531692057A0028BA01 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9620E1551692057A0028BA01 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		9620E1571692057A0028BA01 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		9620E1591692057A0028BA01 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		9620E15B1692057A0028BA01 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9620E15C1692057A0028BA01 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9620E15F1692057A0028BA01 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		9620E16C169205C50028BA01 /* WebServiceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WebServiceController.h; path = ../../code/WebServiceController.h; sourceTree = "<group>"; };
+		9620E16D169205C50028BA01 /* WebServiceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WebServiceController.m; path = ../../code/WebServiceController.m; sourceTree = "<group>"; };
+		9620E16E169205C50028BA01 /* WebServiceRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WebServiceRequest.h; path = ../../code/WebServiceRequest.h; sourceTree = "<group>"; };
+		9620E16F169205C50028BA01 /* WebServiceRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WebServiceRequest.m; path = ../../code/WebServiceRequest.m; sourceTree = "<group>"; };
+		9620E170169205C50028BA01 /* WebServiceResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WebServiceResponse.h; path = ../../code/WebServiceResponse.h; sourceTree = "<group>"; };
+		9620E171169205C50028BA01 /* WebServiceResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WebServiceResponse.m; path = ../../code/WebServiceResponse.m; sourceTree = "<group>"; };
+		9620E178169206480028BA01 /* Config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
+		9620E17C1692075D0028BA01 /* ItemModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemModel.h; sourceTree = "<group>"; };
+		9620E17D1692075D0028BA01 /* ItemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemModel.m; sourceTree = "<group>"; };
+		9620E180169208100028BA01 /* NSDictionaryAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDictionaryAdditions.h; sourceTree = "<group>"; };
+		9620E181169208100028BA01 /* NSDictionaryAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDictionaryAdditions.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9620E13C1692057A0028BA01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9620E1441692057A0028BA01 /* UIKit.framework in Frameworks */,
+				9620E1461692057A0028BA01 /* Foundation.framework in Frameworks */,
+				9620E1481692057A0028BA01 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9620E1341692057A0028BA01 = {
+			isa = PBXGroup;
+			children = (
+				9620E1491692057A0028BA01 /* async-http-client-test */,
+				9620E1421692057A0028BA01 /* Frameworks */,
+				9620E1401692057A0028BA01 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9620E1401692057A0028BA01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9620E13F1692057A0028BA01 /* async-http-client-test.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9620E1421692057A0028BA01 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9620E1431692057A0028BA01 /* UIKit.framework */,
+				9620E1451692057A0028BA01 /* Foundation.framework */,
+				9620E1471692057A0028BA01 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9620E1491692057A0028BA01 /* async-http-client-test */ = {
+			isa = PBXGroup;
+			children = (
+				9620E17F169208040028BA01 /* Helpers */,
+				9620E177169205F70028BA01 /* ViewControllers */,
+				9620E175169205E40028BA01 /* Models */,
+				9620E16A169205B70028BA01 /* Network */,
+				9620E176169205EB0028BA01 /* Main */,
+				9620E17B1692065C0028BA01 /* Resources */,
+			);
+			path = "async-http-client-test";
+			sourceTree = "<group>";
+		};
+		9620E14A1692057A0028BA01 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				9620E1551692057A0028BA01 /* Default.png */,
+				9620E1571692057A0028BA01 /* Default@2x.png */,
+				9620E1591692057A0028BA01 /* Default-568h@2x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		9620E16A169205B70028BA01 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				9620E16C169205C50028BA01 /* WebServiceController.h */,
+				9620E16D169205C50028BA01 /* WebServiceController.m */,
+				9620E16E169205C50028BA01 /* WebServiceRequest.h */,
+				9620E16F169205C50028BA01 /* WebServiceRequest.m */,
+				9620E170169205C50028BA01 /* WebServiceResponse.h */,
+				9620E171169205C50028BA01 /* WebServiceResponse.m */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		9620E175169205E40028BA01 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9620E17C1692075D0028BA01 /* ItemModel.h */,
+				9620E17D1692075D0028BA01 /* ItemModel.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		9620E176169205EB0028BA01 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				9620E14F1692057A0028BA01 /* main.m */,
+				9620E1521692057A0028BA01 /* AppDelegate.h */,
+				9620E1531692057A0028BA01 /* AppDelegate.m */,
+				9620E178169206480028BA01 /* Config.h */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		9620E177169205F70028BA01 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				9620E15B1692057A0028BA01 /* ViewController.h */,
+				9620E15C1692057A0028BA01 /* ViewController.m */,
+				9620E15E1692057A0028BA01 /* ViewController.xib */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		9620E17B1692065C0028BA01 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9620E14B1692057A0028BA01 /* async-http-client-test-Info.plist */,
+				9620E14C1692057A0028BA01 /* InfoPlist.strings */,
+				9620E1511692057A0028BA01 /* async-http-client-test-Prefix.pch */,
+				9620E14A1692057A0028BA01 /* Images */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		9620E17F169208040028BA01 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				9620E180169208100028BA01 /* NSDictionaryAdditions.h */,
+				9620E181169208100028BA01 /* NSDictionaryAdditions.m */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9620E13E1692057A0028BA01 /* async-http-client-test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9620E1631692057A0028BA01 /* Build configuration list for PBXNativeTarget "async-http-client-test" */;
+			buildPhases = (
+				9620E13B1692057A0028BA01 /* Sources */,
+				9620E13C1692057A0028BA01 /* Frameworks */,
+				9620E13D1692057A0028BA01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "async-http-client-test";
+			productName = "async-http-client-test";
+			productReference = 9620E13F1692057A0028BA01 /* async-http-client-test.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9620E1361692057A0028BA01 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Wall Mobile SOlutions";
+			};
+			buildConfigurationList = 9620E1391692057A0028BA01 /* Build configuration list for PBXProject "async-http-client-test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9620E1341692057A0028BA01;
+			productRefGroup = 9620E1401692057A0028BA01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9620E13E1692057A0028BA01 /* async-http-client-test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9620E13D1692057A0028BA01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9620E14E1692057A0028BA01 /* InfoPlist.strings in Resources */,
+				9620E1561692057A0028BA01 /* Default.png in Resources */,
+				9620E1581692057A0028BA01 /* Default@2x.png in Resources */,
+				9620E15A1692057A0028BA01 /* Default-568h@2x.png in Resources */,
+				9620E1601692057A0028BA01 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9620E13B1692057A0028BA01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9620E1501692057A0028BA01 /* main.m in Sources */,
+				9620E1541692057A0028BA01 /* AppDelegate.m in Sources */,
+				9620E15D1692057A0028BA01 /* ViewController.m in Sources */,
+				9620E172169205C50028BA01 /* WebServiceController.m in Sources */,
+				9620E173169205C50028BA01 /* WebServiceRequest.m in Sources */,
+				9620E174169205C50028BA01 /* WebServiceResponse.m in Sources */,
+				9620E17E1692075D0028BA01 /* ItemModel.m in Sources */,
+				9620E182169208100028BA01 /* NSDictionaryAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9620E14C1692057A0028BA01 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9620E14D1692057A0028BA01 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9620E15E1692057A0028BA01 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9620E15F1692057A0028BA01 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9620E1611692057A0028BA01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9620E1621692057A0028BA01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9620E1641692057A0028BA01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "async-http-client-test/async-http-client-test-Prefix.pch";
+				INFOPLIST_FILE = "async-http-client-test/async-http-client-test-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9620E1651692057A0028BA01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "async-http-client-test/async-http-client-test-Prefix.pch";
+				INFOPLIST_FILE = "async-http-client-test/async-http-client-test-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9620E1391692057A0028BA01 /* Build configuration list for PBXProject "async-http-client-test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9620E1611692057A0028BA01 /* Debug */,
+				9620E1621692057A0028BA01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9620E1631692057A0028BA01 /* Build configuration list for PBXNativeTarget "async-http-client-test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9620E1641692057A0028BA01 /* Debug */,
+				9620E1651692057A0028BA01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9620E1361692057A0028BA01 /* Project object */;
+}
