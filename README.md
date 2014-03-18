@@ -28,6 +28,7 @@ Sample Usage (Pseudo code mostly)
 
 SampleViewController.m
 
+```objc
 import "WebServiceResponse.h"
 
 - (void)viewDidLoad {
@@ -37,9 +38,11 @@ import "WebServiceResponse.h"
     }
   }]
 }
+```
 
 ItemModel.m
 
+```objc
 import "WebServiceResponse.h"
 import "WebServiceRequest.h"
 
@@ -57,3 +60,4 @@ import "WebServiceRequest.h"
 	
 	return [request doRequestFinished:finished];
 }
+```
